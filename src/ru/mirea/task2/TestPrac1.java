@@ -1,7 +1,5 @@
 package ru.mirea.task2;
 
-import ru.mirea.task2.Prac1;
-
 public class TestPrac1
 {
     public static void main(String[] args)
