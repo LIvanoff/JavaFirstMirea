@@ -1,4 +1,4 @@
-package ru.mirea.task1;
+package ru.mirea.task2;
 
 import java.lang.String;
 

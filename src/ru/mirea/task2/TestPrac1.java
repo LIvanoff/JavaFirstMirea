@@ -1,4 +1,6 @@
-package ru.mirea.task1;
+package ru.mirea.task2;
+
+import ru.mirea.task2.Prac1;
 
 public class TestPrac1
 {
