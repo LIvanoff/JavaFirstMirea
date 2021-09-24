@@ -23,9 +23,9 @@ class Shepherd extends Dog
     }
     public String setName(){ return name; }
 }
-class Kaucazian extends  Shepherd
+class Caucazian extends  Shepherd
 {
-    public Kaucazian(String name)
+    public Caucazian(String name)
     {
         super(name);
     }
