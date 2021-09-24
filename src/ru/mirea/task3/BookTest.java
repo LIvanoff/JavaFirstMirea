@@ -16,6 +16,5 @@ public class BookTest
         String aut = "Виктор Логинов";
         int year2 = 2021;
         Book ob2 = new Book(name2,aut,year2);
-        System.out.print("Книга: "+ob2.getBook());
     }
 }

@@ -41,7 +41,6 @@ public class Book
     }
     public String getBook()
     {
-
         return name+" "+writer+" "+year;
     }
 
