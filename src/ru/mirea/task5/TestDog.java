@@ -9,21 +9,21 @@ public class TestDog
         String name;
         Scanner scan = new Scanner(System.in);
         System.out.print("Выберите пароду собаки: \n1 - Лабрадор \n2 - Овчарка \n3 - Кавказская овчарка\n ");
-        int it;
-        it = scan.nextInt();
+        int num;
+        num = scan.nextInt();
         System.out.print("Введите кличку собаки: ");
         name = scan.next();
-        if(it==1)
+        if(num==1)
         {
             Labrador lb = new Labrador(name);
             System.out.print("У вас лабрадор по имени "+lb.setName());
         }
-        else if(it == 2)
+        else if(num == 2)
         {
             Shepherd sh = new Shepherd(name);
             System.out.print("У вас овчарка по имени "+sh.setName());
         }
-        else  if(it == 3)
+        else  if(num == 3)
         {
             Caucazian caucazian = new Caucazian(name);
             System.out.print("У вас кавказская овчарка по имени "+caucazian.setName());
