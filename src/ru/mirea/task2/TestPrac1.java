@@ -14,9 +14,7 @@ public class TestPrac1
         Prac1 ob_y1 = new Prac1(year1);
         Prac1 book2 = new Prac1(name2,writer2, year2);
         System.out.print("Первая книга: ");
-        System.out.print(ob_wr1.getWriter()+" ");
-        System.out.print(ob_y1.getYear()+"\n");
-        System.out.print("Вторая книга: ");
+        System.out.print(ob_wr1.getWriter()+" "+ob_y1.getYear()+"\n");
         System.out.print(book2.getBook());
     }
 }
