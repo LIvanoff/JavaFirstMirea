@@ -1,8 +1,7 @@
 package ru.mirea.task6;
 import java.lang.String;
-import java.util.Scanner;
 
-public class Entities implements Nameable, Priceable
+public abstract class Entities implements Nameable, Priceable
 {
     String name;
     String price;
@@ -20,5 +19,19 @@ public class Entities implements Nameable, Priceable
     public void getPrice()
     {
         System.out.print(price);
+    }
+}
+class Game extends Entities
+{
+    public Game(String name, String price)
+    {
+        super(name, price);
+    }
+}
+class FootballClub extends Entities
+{
+    public FootballClub(String name, String price)
+    {
+        super(name, price);
     }
 }
