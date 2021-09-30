@@ -1,8 +1,18 @@
 package ru.mirea.task1;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
+    public static int fact(int num)
+    {
+        int b=1;
+        for (int i = 1; i<=num;i++){
+            b*=i;
+        }
+        return b;
+    }
+
     public static void sum(int[] copyArray)
     {
         int sum=0;
@@ -62,5 +72,14 @@ public class Main {
         printArray("Неотсортированный массив: ",array1);
         sortArray(array1);
         printArray("Отсортированный массив: ",array1);
+        System.out.print("\nГармонический ряд: ");
+        int count = 10;
+        for (int i = 1; i<=count;i++){
+            System.out.print("1/"+i+" ");
+        }
+        System.out.print("\nВведите число ");
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.print("\nФакториал числа "+num+" равен "+fact(num));
     }
 }
