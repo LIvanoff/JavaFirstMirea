@@ -1,6 +1,6 @@
 package ru.mirea.task2;
 
-public class TestPrac1
+public class TestBook
 {
     public static void main(String[] args)
     {
@@ -10,9 +10,9 @@ public class TestPrac1
         String name2 = "Dune";
         int year1 = 1844;
         int year2 = 1963;
-        Prac1 ob_wr1 = new Prac1(name1,writer1);
-        Prac1 ob_y1 = new Prac1(year1);
-        Prac1 book2 = new Prac1(name2,writer2, year2);
+        Book ob_wr1 = new Book(name1,writer1);
+        Book ob_y1 = new Book(year1);
+        Book book2 = new Book(name2,writer2, year2);
         System.out.print("Первая книга: ");
         System.out.print(ob_wr1.getWriter()+" "+ob_y1.getYear()+"\n");
         System.out.print(book2.getBook());

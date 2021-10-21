@@ -2,34 +2,34 @@ package ru.mirea.task2;
 
 import java.lang.String;
 
-public class Prac1 //класс описывающий книгу
+public class Book //класс описывающий книгу
 {
     String writer;
     String name;
     int year;
     private String book;
 
-    public Prac1(String n,int y)
+    public Book(String n,int y)
     {
         name=n;
         year=y;
     }
-    public Prac1(String w)
+    public Book(String w)
     {
         writer = w;
     }
-    public Prac1(String n,String w)
+    public Book(String n,String w)
     {
         name=n;
         writer=w;
     }
-    public  Prac1(String n, String wr, int y)
+    public  Book(String n, String wr, int y)
     {
         name ="\""+ n+"\"";
         writer = wr;
         year = y;
     }
-    public  Prac1(int y)
+    public  Book(int y)
     {
         year = y;
     }
