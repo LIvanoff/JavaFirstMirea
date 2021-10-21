@@ -1,26 +1,29 @@
 package ru.mirea.task5;
+public abstract class Furniture {
+    protected String type;
+    protected String name;
+    protected String material;
+    protected double price;
 
-public abstract class Furniture
-{
-    String price;
-    int number;
-    String color;
-    Furniture(int number){ this.number = number;}
-    public void setColor(String color){this.color=color;}
-}
-class Plate extends Furniture
-{
-    Plate(int number)
-    {
-        super(number);
+    public Furniture(String name, String type, String material, double price){
+        this.material = material;
+        this.name = name;
+        this.type = type;
+        this.price = price;
     }
-    public void setColor(String color){this.color=color;}
-}
-class Glass extends Furniture
-{
-    Glass(int number)
-    {
-        super(number);
+
+    public String getType(){
+        return this.type;
     }
-    public void setColor(String color){this.color=color;}
+    public String getMaterial(){
+        return this.material;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }
