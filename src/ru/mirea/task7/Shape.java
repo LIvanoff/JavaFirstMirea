@@ -27,7 +27,7 @@ public abstract class Shape
         this.filled = filled;
     }
     public abstract double getArea();
-    public abstract double getPremier();
+    public abstract double getPerimeter();
     public  abstract String ToString();
 }
 class Circle extends Shape
@@ -55,7 +55,7 @@ class Circle extends Shape
         return 0;
     }
     @Override
-    public double getPremier()
+    public double getPerimeter()
     {
         return 0;
     }
@@ -102,7 +102,7 @@ class Rectangle extends Shape
         return 0;
     }
     @Override
-    public double getPremier() {
+    public double getPerimeter() {
         return 0;
     }
     @Override
