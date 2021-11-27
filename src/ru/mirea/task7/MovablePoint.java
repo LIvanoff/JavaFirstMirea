@@ -4,7 +4,7 @@ public class MovablePoint implements Movable
 {
     private int x,y;
     private int xSpeed, ySpeed;
-    public void MovableCircle(int x, int y, int xSpeed, int ySpeed)
+    public MovablePoint(int x, int y, int xSpeed, int ySpeed)
     {
         this.x= x;
         this.y = y;
